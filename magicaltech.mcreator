@@ -601,7 +601,7 @@
     "description": "Can be used in a modrinth pack",
     "author": "ezyybin604",
     "websiteURL": "https://modrinth.com/user/ezyybin604",
-    "license": "Not specified",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
     "requiredMods": [
       "protection_pixel",
