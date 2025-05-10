@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magicaltech:block/drymud",
+    "up": "magicaltech:block/drymud",
+    "north": "magicaltech:block/drymud",
+    "east": "magicaltech:block/drymud",
+    "south": "magicaltech:block/drymud",
+    "west": "magicaltech:block/drymud",
+    "particle": "magicaltech:block/drymud"
+  },
+  "render_type": "solid"
+}

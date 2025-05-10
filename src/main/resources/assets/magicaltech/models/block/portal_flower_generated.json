@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "magicaltech:block/portal_flower",
+    "particle": "magicaltech:block/portal_flower"
+  },
+  "render_type": "cutout"
+}

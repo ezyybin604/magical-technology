@@ -1,0 +1,533 @@
+{
+  "mod_elements": [
+    {
+      "name": "Alumitite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alumitite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicaltechnologymcreator/item/AlumititeItem.java",
+          "src/main/resources/assets/magicaltech/models/item/alumitite.json"
+        ]
+      }
+    },
+    {
+      "name": "MTCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mt_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DryMud",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicaltech/models/item/dry_mud.json",
+          "src/main/resources/assets/magicaltech/models/block/dry_mud.json",
+          "src/main/resources/assets/magicaltech/blockstates/dry_mud.json",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dry_mud.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DryMudBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PortalFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicaltech/loot_tables/blocks/portal_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/portal_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/PortalFlowerBlock.java",
+          "src/main/resources/assets/magicaltech/models/block/portal_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/portal_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadBlackFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_black_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_black_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_black_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/dead_black_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadBlackFlowerBlock.java",
+          "src/main/resources/assets/magicaltech/blockstates/dead_black_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadBlueFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_blue_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadBlueFlowerBlock.java",
+          "src/main/resources/assets/magicaltech/models/item/dead_blue_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_blue_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_blue_flower.json",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_blue_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadBrownFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_brown_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_brown_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadBrownFlowerBlock.java",
+          "src/main/resources/assets/magicaltech/models/block/dead_brown_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_brown_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/dead_brown_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadCyanFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_cyan_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicaltech/blockstates/dead_cyan_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/dead_cyan_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_cyan_flower.json",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_cyan_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadCyanFlowerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DeadGrayFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_gray_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadGrayFlowerBlock.java",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_gray_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/dead_gray_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_gray_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_gray_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadGreenFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_green_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicaltech/models/block/dead_green_flower.json",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_green_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_green_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/dead_green_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadGreenFlowerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DeadLightBlueFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_light_blue_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_light_blue_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/dead_light_blue_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_light_blue_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadLightBlueFlowerBlock.java",
+          "src/main/resources/assets/magicaltech/blockstates/dead_light_blue_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadLightGrayFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_light_gray_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicaltech/blockstates/dead_light_gray_flower.json",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_light_gray_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/dead_light_gray_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_light_gray_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadLightGrayFlowerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DeadLimePetal",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_lime_petal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicaltech/models/item/dead_lime_petal.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadLimePetalBlock.java",
+          "src/main/resources/assets/magicaltech/models/block/dead_lime_petal.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_lime_petal.json",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_lime_petal.json"
+        ]
+      }
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicaltech/worldgen/configured_feature/platinum_ore.json",
+          "src/main/resources/assets/magicaltech/models/item/platinum_ore.json",
+          "src/main/resources/assets/magicaltech/models/block/platinum_ore.json",
+          "src/main/resources/assets/magicaltech/blockstates/platinum_ore.json",
+          "src/main/resources/data/magicaltech/worldgen/placed_feature/platinum_ore.json",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/platinum_ore.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/PlatinumOreBlock.java",
+          "src/main/resources/data/magicaltech/forge/biome_modifier/platinum_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "PlatinumOreItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicaltechnologymcreator/item/PlatinumOreItemItem.java",
+          "src/main/resources/assets/magicaltech/models/item/platinum_ore_item.json"
+        ]
+      }
+    },
+    {
+      "name": "PlatinumDustItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_dust_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicaltech/models/item/platinum_dust_item.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/item/PlatinumDustItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicaltech/models/item/platinum_ingot.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/item/PlatinumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicaltechnologymcreator/item/EndDustItem.java",
+          "src/main/resources/assets/magicaltech/models/item/end_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "ActivatedEndDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activated_end_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicaltechnologymcreator/item/ActivatedEndDustItem.java",
+          "src/main/resources/assets/magicaltech/models/item/activated_end_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadMagentaFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_magenta_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadMagentaFlowerBlock.java",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_magenta_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_magenta_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_magenta_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/dead_magenta_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadOrangeFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_orange_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadOrangeFlowerBlock.java",
+          "src/main/resources/assets/magicaltech/models/item/dead_orange_flower.json",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_orange_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_orange_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_orange_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadPinkFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_pink_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicaltech/models/item/dead_pink_flower.json",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_pink_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_pink_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_pink_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadPinkFlowerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DeadPurpleFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_purple_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_purple_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadPurpleFlowerBlock.java",
+          "src/main/resources/assets/magicaltech/models/item/dead_purple_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_purple_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_purple_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadRedFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_red_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicaltech/models/block/dead_red_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/dead_red_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadRedFlowerBlock.java",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_red_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_red_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadWhiteFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_white_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadWhiteFlowerBlock.java",
+          "src/main/resources/assets/magicaltech/blockstates/dead_white_flower.json",
+          "src/main/resources/assets/magicaltech/models/item/dead_white_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_white_flower.json",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_white_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadYellowFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_yellow_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magicaltech/models/item/dead_yellow_flower.json",
+          "src/main/java/net/mcreator/magicaltechnologymcreator/block/DeadYellowFlowerBlock.java",
+          "src/main/resources/data/magicaltech/loot_tables/blocks/dead_yellow_flower.json",
+          "src/main/resources/assets/magicaltech/models/block/dead_yellow_flower.json",
+          "src/main/resources/assets/magicaltech/blockstates/dead_yellow_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "BrokenDiamond",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_diamond",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicaltechnologymcreator/item/BrokenDiamondItem.java",
+          "src/main/resources/assets/magicaltech/models/item/broken_diamond.json"
+        ]
+      }
+    },
+    {
+      "name": "BrokeDiamond",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broke_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/diamond_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "BrokeDiamondDeepslate",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broke_diamond_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/deepslate_diamond_ore.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DryMud"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:PlatinumOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PlatinumOre"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:DryMud"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.magicaltech.activated_end_dust": "Activated End Dust",
+      "block.magical_technology__mcreator.dead_pink_flower": "Dead Pink Flower",
+      "block.magical_technology__mcreator.dead_light_blue_flower": "Dead Light Blue Flower",
+      "item.magical_technology__mcreator.alumitite": "Alumitite",
+      "block.magicaltech.portal_flower": "Portal Flower",
+      "item.magical_technology__mcreator.broken_diamond": "Broken Diamond",
+      "block.magical_technology__mcreator.dead_cyan_flower": "Dead Cyan Flower",
+      "block.magical_technology__mcreator.dead_gray_flower": "Dead Gray Flower",
+      "block.magical_technology__mcreator.dead_magenta_flower": "Dead Magenta Flower",
+      "block.magicaltech.dead_orange_flower": "Dead Orange Flower",
+      "item.magicaltech.end_dust": "End Dust",
+      "block.magicaltech.dead_magenta_flower": "Dead Magenta Flower",
+      "block.magicaltech.dead_pink_flower": "Dead Pink Flower",
+      "block.magical_technology__mcreator.dead_green_flower": "Dead Green Flower",
+      "item.magical_technology__mcreator.platinum_ingot": "Platinum Ingot",
+      "block.magicaltech.dead_brown_flower": "Dead Brown Flower",
+      "block.magicaltech.dead_white_flower": "Dead White Flower",
+      "item.magical_technology__mcreator.activated_end_dust": "Activated End Dust",
+      "block.magical_technology__mcreator.dead_white_flower": "Dead White Flower",
+      "block.magicaltech.dead_green_flower": "Dead Green Flower",
+      "item_group.magical_technology__mcreator.mt_creative_tab": "MagicTech - MCreator",
+      "block.magicaltech.dead_blue_flower": "Dead Blue Flower",
+      "item.magical_technology__mcreator.platinum_dust_item": "Platinum Dust",
+      "block.magicaltech.dry_mud": "Dry Mud",
+      "block.magicaltech.dead_light_gray_flower": "Dead Light Gray Flower",
+      "block.magicaltech.dead_purple_flower": "Dead Purple Flower",
+      "item.magicaltech.broken_diamond": "Broken Diamond",
+      "block.magical_technology__mcreator.dead_red_flower": "Dead Red Flower",
+      "block.magical_technology__mcreator.dry_mud": "Dry Mud",
+      "block.magicaltech.dead_light_blue_flower": "Dead Light Blue Flower",
+      "block.magical_technology__mcreator.platinum_ore": "Platinum Ore",
+      "block.magicaltech.dead_lime_petal": "Dead Lime Flower",
+      "item.magicaltech.platinum_dust_item": "Platinum Dust",
+      "block.magicaltech.dead_yellow_flower": "Dead Yellow Flower",
+      "block.magical_technology__mcreator.dead_blue_flower": "Dead Blue Flower",
+      "item.magical_technology__mcreator.platinum_ore_item": "Platinum Ore",
+      "block.magical_technology__mcreator.dead_lime_petal": "Dead Lime Flower",
+      "block.magical_technology__mcreator.dead_black_flower": "Dead Black Flower",
+      "item.magicaltech.alumitite": "Alumitite",
+      "block.magical_technology__mcreator.dead_orange_flower": "Dead Orange Flower",
+      "block.magical_technology__mcreator.portal_flower": "Portal Flower",
+      "block.magical_technology__mcreator.dead_yellow_flower": "Dead Yellow Flower",
+      "block.magicaltech.dead_red_flower": "Dead Red Flower",
+      "block.magical_technology__mcreator.dead_light_gray_flower": "Dead Light Gray Flower",
+      "item_group.magicaltech.mt_creative_tab": "MagicTech - MCreator",
+      "block.magicaltech.dead_black_flower": "Dead Black Flower",
+      "item.magicaltech.platinum_ore_item": "Platinum Ore",
+      "block.magical_technology__mcreator.dead_brown_flower": "Dead Brown Flower",
+      "item.magicaltech.platinum_ingot": "Platinum Ingot",
+      "block.magicaltech.dead_cyan_flower": "Dead Cyan Flower",
+      "block.magicaltech.dead_gray_flower": "Dead Gray Flower",
+      "block.magicaltech.platinum_ore": "Platinum Ore",
+      "block.magical_technology__mcreator.dead_purple_flower": "Dead Purple Flower",
+      "item.magical_technology__mcreator.end_dust": "End Dust"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "magicaltech",
+    "modName": "Magical Technology - MCreator",
+    "version": "1.0.1",
+    "description": "Meant to be used in a modpack",
+    "author": "Ezyybin604, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.magicaltechnologymcreator"
+  },
+  "mcreatorVersion": 202400232117
+}

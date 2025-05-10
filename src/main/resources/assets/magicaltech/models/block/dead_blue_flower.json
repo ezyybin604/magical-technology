@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "magicaltech:block/mystical_brown_dead",
+    "particle": "magicaltech:block/mystical_brown_dead"
+  },
+  "render_type": "cutout"
+}
