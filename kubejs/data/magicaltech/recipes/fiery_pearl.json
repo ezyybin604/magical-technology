@@ -1,0 +1,14 @@
+{
+    "type": "botania:mana_infusion",
+    "catalyst": {
+        "type": "block",
+        "block": "botania:blaze_block"
+    },
+    "input": {
+        "item": "magicaltech:alchemical_pearl"
+    },
+    "mana": 20000,
+    "output": {
+        "item": "magicaltech:firery_pearl"
+    }
+}

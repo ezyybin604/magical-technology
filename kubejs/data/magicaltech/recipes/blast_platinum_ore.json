@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "magicaltech:platinum_ore_item"
+    },
+    "result": "magicaltech:platinum_ingot"
+}

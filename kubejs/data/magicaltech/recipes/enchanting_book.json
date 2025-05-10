@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SPS",
+        "PAP",
+        "SPS"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:book"
+        },
+        "P": {
+            "item": "botania:pixie_dust"
+        },
+        "S": {
+            "item": "minecraft:bookshelf"
+        }
+    },
+    "result": {
+        "item": "magicaltech:enchanting_book",
+        "count": 1
+    }
+}

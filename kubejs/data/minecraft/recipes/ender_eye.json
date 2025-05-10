@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "magicaltech:activated_end_dust"
+        },
+        {
+            "item": "magicaltech:alchemical_pearl"
+        },
+        {
+            "amount": 1000,
+            "fluid": "minecraft:water",
+            "nbt": {}
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:ender_eye"
+        }
+    ]
+}

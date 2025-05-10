@@ -1,0 +1,14 @@
+{
+    "type": "botania:mana_infusion",
+    "catalyst": {
+        "type": "block",
+        "block": "botania:terrasteel_block"
+    },
+    "input": {
+        "item": "botania:mana_pearl"
+    },
+    "mana": 5000,
+    "output": {
+        "item": "magicaltech:alchemical_pearl"
+    }
+}

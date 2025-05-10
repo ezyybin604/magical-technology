@@ -1,0 +1,414 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_only_chapter"
+	group: ""
+	id: "446A09C0EAF2F6F6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome!"
+				"i guess"
+				"have fun :))))"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:lifedrain_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5CF4D296FA54186D"
+			rewards: [{
+				id: "0B5B8CC022CEDF6B"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "hi"
+			tasks: [{
+				id: "606E2A4ECC130F15"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "Warning?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CF4D296FA54186D"]
+			description: ["Welcome to Magical Technology! This modpack is the result of attempting to combine exploration \\& automation. Here’s some iron to get you started. This questline is a rough idea of what you should do to progress."]
+			icon: "minecraft:torchflower"
+			id: "45353DFDEE2161AB"
+			rewards: [{
+				count: 16
+				id: "357BACC8E38BDAB1"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "real"
+			tasks: [{
+				id: "0528A922576E65ED"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "Beginning"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45353DFDEE2161AB"]
+			description: ["To get started, You will have to get to a trial chamber and unlock some vaults for some Alumitite. It’s pretty common, so you shouldn’t have a problem with it. Good thing you spawned near a village."]
+			id: "2964AFD857A1E07E"
+			rewards: [{
+				id: "7BE6E4121183CD00"
+				item: "trials:trial_key"
+				type: "item"
+			}]
+			subtitle: "tech progression"
+			tasks: [{
+				icon: "minecraft:copper_block"
+				id: "0F87F3EE14545F31"
+				structure: "trials:trials_chambers"
+				title: "Visit a trial chamber"
+				type: "structure"
+			}]
+			title: "First Contact"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2964AFD857A1E07E"]
+			description: ["Now that you have access to create, if you need better armor, consider Protection Pixel. It’s pretty interesting!"]
+			icon: {
+				Count: 1
+				id: "protection_pixel:hammer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11C94FB9FCDBC48E"
+			subtitle: "balancing done by someone else"
+			tasks: [{
+				id: "3E55A6533A3805F9"
+				item: "protection_pixel:armorloadplatform"
+				type: "item"
+			}]
+			title: "Don't Die!"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2964AFD857A1E07E"
+				"2932383538A2B66F"
+			]
+			description: ["Have you stumbled into some dead, wilted flowers in your travels? Yes? Well you can energize them right back up and start Botania progression there."]
+			icon: "botania:orange_shiny_flower"
+			id: "46EBE1C5C60FC6C7"
+			rewards: [{
+				count: 5
+				id: "3A2889E6D25C3084"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			subtitle: "mmmm"
+			tasks: [{
+				id: "1B304D3526106048"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Get any mystical flower"
+				type: "item"
+			}]
+			title: "Pretty Flowers"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46EBE1C5C60FC6C7"]
+			description: ["Have you tried getting diamonds from the mines but all you got was some broken gems? Well, with a new mana pool, (and some mana) you can repair these broken diamonds you have!"]
+			id: "52C7F727C879A5B1"
+			subtitle: "shiny gems"
+			tasks: [{
+				id: "0A9B659E0351F1DD"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamonds!"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["471B60E3679DC583"]
+			description: ["It has a strange power emanating from it. Maybe you could harvest it using the power of some special rocks with unusual properties? Like Dry Mud? I don’t know where you would get that, but maybe you could borrow some."]
+			id: "7F0A8242E152291E"
+			rewards: [{
+				id: "585664AD50FB73E8"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "spicy flower"
+			tasks: [{
+				id: "4C72D0E8A55B3078"
+				item: "magicaltech:portal_flower"
+				type: "item"
+			}]
+			title: "Special Flower"
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F0A8242E152291E"]
+			description: ["You’ve found a way into a special dimension by making a ring of the special flowers that you made and planting them on some Dry Mud you found, as well as water in the middle and the sacrifice of a diamond."]
+			id: "77C6DB4D1BB4D573"
+			rewards: [{
+				id: "3475047C45E01713"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			subtitle: "new dimension moment"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "magicaltech:dry_mud"
+				id: "2BE4B8990BC256F3"
+				title: "Visit the twilight forest"
+				type: "dimension"
+			}]
+			title: "Magical Forest"
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"77C6DB4D1BB4D573"
+				"2932383538A2B66F"
+			]
+			description: ["The gaint miner had some special dust that seems to be from the End. Maybe you could use these to track down a stronghold!"]
+			id: "1C2822CE696E3025"
+			rewards: [{
+				count: 2
+				id: "1A1138CA1F9C8861"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "what"
+			tasks: [{
+				id: "6F7ABFB8913F3B5C"
+				item: "magicaltech:end_dust"
+				type: "item"
+			}]
+			title: "How did they get these?"
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C2822CE696E3025"]
+			description: ["You found a way to use the teleporting powers of the Ender Pearl and to activate the End Dust to make it more attracted to the stronghold. You are getting closer.."]
+			id: "504C3E004A2A9FD7"
+			rewards: [{
+				id: "19F18D2AC4563BF8"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			subtitle: "end"
+			tasks: [{
+				icon: "minecraft:ender_eye"
+				id: "47E841C59F8331B9"
+				structure: "betterstrongholds:stronghold"
+				title: "Visit a stronghold"
+				type: "structure"
+			}]
+			title: "End Eye"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["504C3E004A2A9FD7"]
+			description: [
+				"You did it. After days of trying to slay the dragon, it is defeated. You wonder what could be done with it’s egg.."
+				""
+				"heres a nice stand to put it on :)"
+			]
+			hide_until_deps_complete: true
+			id: "2B5EADEB6B57C506"
+			rewards: [{
+				id: "256F1F6BA809080B"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			subtitle: "little egg"
+			tasks: [{
+				id: "5F29E0951E21E5A1"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Dragon Egg"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B5EADEB6B57C506"]
+			description: [
+				"Under the right conditions, this egg is fertilized and then can hatch. Get ready with some fish to tame it! Also once you tame the dragon you completed the pack progression wise. yeahhhh"
+				""
+				"thats it"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:aether"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "1F3DC1A59CC055D7"
+			subtitle: "bye bye"
+			tasks: [{
+				id: "1E73936A061C6DBF"
+				title: "ok"
+				type: "checkmark"
+			}]
+			title: "Dragon Pet"
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46EBE1C5C60FC6C7"]
+			description: [
+				"this is really good"
+				"get it"
+				"get more  flowers!!"
+			]
+			id: "01BED9141FD1554A"
+			rewards: [{
+				id: "58EB5DBF2884F3F6"
+				item: "botania:white_shiny_flower"
+				type: "item"
+			}]
+			subtitle: "bonemeal for flower"
+			tasks: [{
+				id: "60B57F832E80987A"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"46EBE1C5C60FC6C7"
+				"471B60E3679DC583"
+			]
+			description: ["Tired of traveling with your legs? Teleport places instantly with a few clicks!"]
+			id: "14CBA690C5EB2B39"
+			rewards: [{
+				count: 4
+				id: "4129717A81891E0C"
+				item: "magicaltech:broken_diamond"
+				type: "item"
+			}]
+			subtitle: "ur lazy rawr"
+			tasks: [{
+				id: "486E95ADDDF49C94"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Waystones"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46EBE1C5C60FC6C7"]
+			description: ["Non-existent studies say that the people on the other side have some leads about going to the end. They know about someone who calls themselves “The Miner”. Interesting.."]
+			id: "471B60E3679DC583"
+			rewards: [{
+				count: 4
+				id: "6DE1F441EDE794D8"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			subtitle: "not quite a portal"
+			tasks: [{
+				id: "204A95468E128424"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			title: "Elven Portal"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2964AFD857A1E07E"]
+			description: ["When progressing, you will probably want materials. Some are renewable, but most are not. Good for you, the mines have lots of the things you desire. I’m not gonna tell you how to build one, but keep it in mind, okay?"]
+			id: "717E08CA99BE60E5"
+			rewards: [{
+				count: 16
+				id: "27E5817DD6A1DAAB"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			subtitle: "dig big hole"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "30D3F0A7291EA638"
+				item: { Count: 16, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			title: "Quarry"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2964AFD857A1E07E"]
+			description: ["To progress further you need one resource in particular: Electricity. It is made by acquiring coils and surrounding the coils with magnets and finally harvesting the energy with carbon brushes."]
+			id: "2932383538A2B66F"
+			subtitle: "do you have any forks"
+			tasks: [
+				{
+					id: "4E21625C258BB368"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					id: "611479C012C99A18"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+			]
+			title: "Electricity"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["471B60E3679DC583"]
+			description: ["Someone has been looking over you and your flowers ever since you opened that portal, they seem to have taken over the magical area of enchanting. You need to take that power back if you want those, obviously."]
+			id: "454B4A531323C37C"
+			rewards: [{
+				id: "7D5D63943173F4A8"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			subtitle: "shiny book"
+			tasks: [{
+				id: "7B7801706BA19B17"
+				item: "magicaltech:enchanting_book"
+				type: "item"
+			}]
+			title: "Amazing Enchantments"
+			x: 12.5d
+			y: 0.0d
+		}
+	]
+	title: "The Only Chapter"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:andesite"
+        },
+        {
+            "item": "magicaltech:alumitite"
+        }
+    ],
+    "results": [
+        {
+            "item": "create:andesite_alloy",
+            "count": 4
+        }
+    ]
+}

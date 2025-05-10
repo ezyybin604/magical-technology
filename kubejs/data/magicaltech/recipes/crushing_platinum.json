@@ -1,0 +1,19 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "magicaltech:platinum_ore_item"
+        }
+    ],
+    "processingTime": 300,
+    "results": [
+        {
+            "count": 2,
+            "item": "magicaltech:platinum_dust_item"
+        },
+        {
+            "chance": 0.1,
+            "item": "create:zinc_nugget"
+        }
+    ]
+}

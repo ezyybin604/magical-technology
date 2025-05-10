@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "#O#",
+        "OOO"
+    ],
+    "key": {
+        "A": {
+            "item": "magicaltech:enchanting_book"
+        },
+        "#": {
+            "item": "immersiveweapons:electric_ingot"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:enchanting_table",
+        "count": 1
+    }
+}

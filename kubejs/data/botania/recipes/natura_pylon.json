@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#J#",
+        " O "
+    ],
+    "key": {
+        "#": {
+            "item": "botania:terrasteel_nugget"
+        },
+        "J": {
+            "item": "botania:mana_pylon"
+        },
+        "O": {
+            "item": "magicaltech:alchemical_pearl"
+        }
+    },
+    "result": {
+        "item": "botania:natura_pylon",
+        "count": 1
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:diamond_ore"
+    },
+    "result": "magicaltech:broken_diamond"
+}

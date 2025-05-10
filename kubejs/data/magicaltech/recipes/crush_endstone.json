@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "minecraft:end_stone"
+        }
+    ],
+    "processingTime": 300,
+    "results": [
+        {
+            "count": 1,
+            "item": "magicaltech:end_dust"
+        }
+    ]
+}

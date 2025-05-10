@@ -1,0 +1,6 @@
+{
+    "type": "create_new_age:energising",
+    "energy_needed": 100000,
+    "ingredients": [{"item": "magicaltech:end_dust"}],
+    "results": [{"item": "magicaltech:activated_end_dust"}]
+}

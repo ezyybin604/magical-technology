@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "magicaltech:platinum_dust_item"
+    },
+    "result": "magicaltech:platinum_ingot"
+}

@@ -1,0 +1,10 @@
+{
+    "type": "botania:mana_infusion",
+    "input": {
+        "item": "magicaltech:broken_diamond"
+    },
+    "mana": 500,
+    "output": {
+        "item": "minecraft:diamond"
+    }
+}

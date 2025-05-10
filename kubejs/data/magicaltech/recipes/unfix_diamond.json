@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "minecraft:diamond"
+        }
+    ],
+    "processingTime": 800,
+    "results": [
+        {
+            "count": 1,
+            "item": "magicaltech:broken_diamond"
+        }
+    ]
+}

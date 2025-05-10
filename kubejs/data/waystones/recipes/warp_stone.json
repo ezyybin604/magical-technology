@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "A#A",
+        "ODO",
+        "AOA"
+    ],
+    "key": {
+        "#": {
+            "item": "magicaltech:firery_pearl"
+        },
+        "O": {
+            "item": "magicaltech:broken_diamond"
+        },
+        "D": {
+            "item": "botania:alfheim_portal"
+        },
+        "A": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "waystones:warp_stone",
+        "count": 1
+    }
+}

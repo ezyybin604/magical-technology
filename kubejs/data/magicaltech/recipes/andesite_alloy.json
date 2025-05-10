@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:andesite"
+        },
+        {
+            "item": "magicaltech:alumitite"
+        }
+    ],
+    "result": {
+        "item": "create:andesite_alloy"
+    }
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"building","group":"warrior_statue","key":{"a":{"item":"minecraft:stone"},"b":{"item":"minecraft:carved_pumpkin"},"c":{"item":"magicaltech:firery_pearl"}},"pattern":["aaa","aba","aca"],"result":{"item":"immersiveweapons:warrior_statue_head"},"show_notification":true}
