@@ -135,6 +135,11 @@
 			dependencies: ["46EBE1C5C60FC6C7"]
 			description: ["Have you tried getting diamonds from the mines but all you got was some broken gems? Well, with a new mana pool, (and some mana) you can repair these broken diamonds you have!"]
 			id: "52C7F727C879A5B1"
+			rewards: [{
+				id: "6737B6EFFFD1AEB3"
+				item: "magicaltech:broken_diamond"
+				type: "item"
+			}]
 			subtitle: "shiny gems"
 			tasks: [{
 				id: "0A9B659E0351F1DD"
@@ -182,8 +187,8 @@
 				type: "dimension"
 			}]
 			title: "Magical Forest"
-			x: 15.0d
-			y: 2.5d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -205,12 +210,13 @@
 				type: "item"
 			}]
 			title: "How did they get these?"
-			x: 15.0d
+			x: 12.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1C2822CE696E3025"]
 			description: ["You found a way to use the teleporting powers of the Ender Pearl and to activate the End Dust to make it more attracted to the stronghold. You are getting closer.."]
+			hide_until_deps_complete: true
 			id: "504C3E004A2A9FD7"
 			rewards: [{
 				id: "19F18D2AC4563BF8"
@@ -227,7 +233,7 @@
 			}]
 			title: "End Eye"
 			x: 15.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["504C3E004A2A9FD7"]
@@ -251,7 +257,7 @@
 			}]
 			title: "Dragon Egg"
 			x: 17.5d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2B5EADEB6B57C506"]
@@ -280,7 +286,7 @@
 			}]
 			title: "Dragon Pet"
 			x: 17.5d
-			y: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["46EBE1C5C60FC6C7"]
@@ -392,7 +398,7 @@
 		}
 		{
 			dependencies: ["471B60E3679DC583"]
-			description: ["Someone has been looking over you and your flowers ever since you opened that portal, they seem to have taken over the magical area of enchanting. You need to take that power back if you want those, obviously."]
+			description: ["You forgot how to enchant and you need help from the other side to get them to enchant your book for you. This book is a good refrence for enchanting."]
 			id: "454B4A531323C37C"
 			rewards: [{
 				id: "7D5D63943173F4A8"
@@ -406,8 +412,26 @@
 				type: "item"
 			}]
 			title: "Amazing Enchantments"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["454B4A531323C37C"]
+			description: [
+				"See? lookie here"
+				"It WAS useful"
+				"useit"
+			]
+			hide_until_deps_complete: true
+			id: "6D143B4488D33950"
+			subtitle: "told ya"
+			tasks: [{
+				id: "1BB2D76EB9B4FA4F"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
 			x: 12.5d
-			y: 0.0d
+			y: 5.0d
 		}
 	]
 	title: "The Only Chapter"
