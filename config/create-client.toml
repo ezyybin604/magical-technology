@@ -39,7 +39,7 @@
 	#Offset the Create config button in the in-game menu by this many pixels on the X axis
 	#The sign (-/+) of this value determines what side of the row the button appears on (left/right)
 	#Range: > -2147483648
-	ingameMenuConfigButtonOffsetX = -200
+	ingameMenuConfigButtonOffsetX = -2000000
 	#.
 	#Setting this to true will prevent Create from sending you a warning when playing with Fabulous graphics enabled
 	ignoreFabulousWarning = false
@@ -57,7 +57,7 @@
 		#.
 		#The vision range though chocolate will be multiplied by this factor
 		#Range: 0.125 ~ 256.0
-		chocolate = 1.0
+		chocolate = 0.9
 
 	#.
 	#Settings for the Goggle Overlay

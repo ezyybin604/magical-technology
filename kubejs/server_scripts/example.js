@@ -25,16 +25,17 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("minecraft:iron_golem").removeLoot(Ingredient.all);
 });
 
+let mystical_colors = ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+
 ServerEvents.recipes(event => {
     // just realized i could just use the data folder but i dont care
     console.log('Hello! The recipe event has fired!');
 
-    let mystical_colors = ["white", "orange", "magenta", "lightblue", "yellow", "lime", "pink", "gray", "lightgray", "cyan", "purple", "blue", "brown", "green", "red", "black"]
     for (let i=0;i<mystical_colors.length;i++) {
         event.custom({
             "type": "create_new_age:energising",
             "energy_needed": 30000,
-            "ingredients": [{"item": "magicaltech:dead_" + mystical_colors[i] + "_flower"}],
+            "ingredients": [{"item": "kubejs:dead_mystical_" + mystical_colors[i] + "_flower"}],
             "results": [{"item": "botania:" + mystical_colors[i] + "_mystical_flower"}]
         })
     }

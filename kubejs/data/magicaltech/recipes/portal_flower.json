@@ -17,13 +17,13 @@
             "item": "botania:fertilizer"
         },
         {
-            "item": "botania:dreamwood_log"
+            "item": "botania:elementium_block"
         },
         {
-            "item": "botania:elementium_ingot"
+            "item": "botania:rune_pride"
         },
         {
-            "item": "botania:manasteel_ingot"
+            "item": "botania:rune_greed"
         }
     ],
     "output": {

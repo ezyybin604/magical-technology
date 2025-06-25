@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = /Users/ezramorales/Library/Application Support/PrismLauncher/instances/Magical Technology/minecraft/saves/structures 2
+}
+

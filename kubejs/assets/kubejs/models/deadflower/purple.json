@@ -1,0 +1,3 @@
+{
+	"parent": "minecraft:block/cross",
+	"textures":{"cross":"kubejs:block/mystical_purple_dead"}}

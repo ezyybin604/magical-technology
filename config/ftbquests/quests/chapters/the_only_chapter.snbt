@@ -9,9 +9,10 @@
 	quests: [
 		{
 			description: [
-				"Welcome!"
-				"i guess"
-				"have fun :))))"
+				"Okay, if you loose the questbook, you can craft one from a stone block"
+				""
+				"got it?"
+				"ok yay"
 			]
 			icon: {
 				Count: 1
@@ -28,11 +29,18 @@
 			}]
 			size: 2.0d
 			subtitle: "hi"
-			tasks: [{
-				id: "606E2A4ECC130F15"
-				title: "Continue"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "606E2A4ECC130F15"
+					title: "Continue"
+					type: "checkmark"
+				}
+				{
+					id: "311814615D4F9CC2"
+					item: "ftbquests:book"
+					type: "item"
+				}
+			]
 			title: "Warning?"
 			x: 0.0d
 			y: 0.0d
@@ -103,7 +111,7 @@
 		{
 			dependencies: [
 				"2964AFD857A1E07E"
-				"2932383538A2B66F"
+				"7B16A111A1190567"
 			]
 			description: ["Have you stumbled into some dead, wilted flowers in your travels? Yes? Well you can energize them right back up and start Botania progression there."]
 			icon: "botania:orange_shiny_flower"
@@ -129,7 +137,7 @@
 			}]
 			title: "Pretty Flowers"
 			x: 7.5d
-			y: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["46EBE1C5C60FC6C7"]
@@ -170,7 +178,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7F0A8242E152291E"]
+			dependencies: [
+				"7F0A8242E152291E"
+				"52C7F727C879A5B1"
+			]
 			description: ["You’ve found a way into a special dimension by making a ring of the special flowers that you made and planting them on some Dry Mud you found, as well as water in the middle and the sacrifice of a diamond."]
 			id: "77C6DB4D1BB4D573"
 			rewards: [{
@@ -262,27 +273,28 @@
 		{
 			dependencies: ["2B5EADEB6B57C506"]
 			description: [
-				"Under the right conditions, this egg is fertilized and then can hatch. Get ready with some fish to tame it! Also once you tame the dragon you completed the pack progression wise. yeahhhh"
+				"If you just steal some other dragon's egg and combining it with your own, you can make an dragon egg that is ready to hatch!"
 				""
-				"thats it"
+				"Follow the instructions to hatch it :)"
+				""
+				"Get ready with some dragon meal to tame it! Also once you tame the dragon you completed the pack basically"
+				""
+				"I really hope you enjoyed :)))))"
 			]
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "dragonmounts:dragon_egg"
-				tag: {
-					BlockEntityTag: {
-						Breed: "dragonmounts:aether"
-						id: "dragonmounts:dragon_egg"
-					}
-				}
-			}
+			icon: "iceandfire:dragonegg_red"
 			id: "1F3DC1A59CC055D7"
 			subtitle: "bye bye"
 			tasks: [{
-				id: "1E73936A061C6DBF"
-				title: "ok"
-				type: "checkmark"
+				id: "09486CCB173987D8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "magicaltech:dragoneggs"
+					}
+				}
+				type: "item"
 			}]
 			title: "Dragon Pet"
 			x: 17.5d
@@ -331,7 +343,7 @@
 			}]
 			title: "Waystones"
 			x: 7.5d
-			y: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["46EBE1C5C60FC6C7"]
@@ -432,6 +444,144 @@
 			}]
 			x: 12.5d
 			y: 5.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["45353DFDEE2161AB"]
+			description: [
+				"This is the way to make actually good tools"
+				""
+				"i doofus"
+			]
+			icon: "tconstruct:tinker_station"
+			id: "08E824357682FF20"
+			rewards: [{
+				id: "648162C52B7E6FFC"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:flint"
+							"tconstruct:flint"
+							"tconstruct:flint"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:jagged"
+							}
+							{
+								level: 1
+								name: "tconstruct:pierce"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.4750001f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 72.25f
+							"tconstruct:harvest_tier": "minecraft:stone"
+							"tconstruct:mining_speed": 3.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "good tool"
+			tasks: [
+				{
+					id: "49B691342397DEA3"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "69C679636C830C1F"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5CF18C5B6D7DED92"
+					item: { Count: 9, id: "tconstruct:pattern" }
+					type: "item"
+				}
+			]
+			title: "Tinker's Tools"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08E824357682FF20"]
+			description: ["Use these to make metal tools"]
+			icon: "tconstruct:smeltery_controller"
+			id: "2B3F97D8530DC696"
+			rewards: [{
+				id: "7AEB7F575E72F6D3"
+				item: "tconstruct:pick_head_cast"
+				type: "item"
+			}]
+			subtitle: "metal"
+			tasks: [
+				{
+					id: "58BB2F21E1B21C71"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "05439169FE064F61"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "28DB96AB65F671CB"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "228B36226F92E285"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "65CA35E03AC2773E"
+					item: { Count: 4, id: "tconstruct:seared_bricks" }
+					type: "item"
+				}
+			]
+			title: "Tinker's Smeltery"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2932383538A2B66F"]
+			description: [
+				"While most magical flowers are extinct, you can find some"
+				"dried ones in nearby abandoned bunkers."
+			]
+			id: "7B16A111A1190567"
+			subtitle: "in bunker"
+			tasks: [{
+				id: "09D40794DC6C387A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "magicaltech:deadflowers"
+					}
+				}
+				type: "item"
+			}]
+			title: "Find a dead flower"
+			x: 7.5d
+			y: 0.0d
 		}
 	]
 	title: "The Only Chapter"
